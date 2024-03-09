@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #2c2ead;
+}
+
+#cabecalho .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ece9e9;
+}
+
+.section-title {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #ece9e9;
+}
+
+.text-colored {
+    color: #2c2ead;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #000000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #8a8887;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
